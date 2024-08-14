@@ -13,6 +13,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'portRed': '#E34F3A',
+        'portDrkRed': '#8d0808',
+        'portGreen': '#CEF26A',
+        'portBlack': '#333333',
+        'portDrkBlack': '#30302f',
+        'portOffWhite':'#f2f0ef',
+
+      },
     },
   },
   plugins: [],
