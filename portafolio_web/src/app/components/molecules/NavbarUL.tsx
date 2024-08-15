@@ -8,13 +8,13 @@ const NavbarUL = () => {
 		{ href: "#hero-section", innerText: "Inicio" },
 		{ href: "#projects-section", innerText: "Proyectos" },
 
-		{ href: "#contact-section", innerText: "contacto" },
+		{ href: "#contact-section", innerText: "Contacto" },
 		{ href: "#about-section", innerText: "Sobre mi" },
 	];
 
 	return (
 		<nav className={redHat.className}>
-			<ul>
+			<ul className="flex gap-8">
 				{NavItems.map((item, index) => (
 					<NavbarLink
 						key={index}

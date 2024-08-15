@@ -23,7 +23,7 @@ const NavbarIconGroup: React.FC<NavbarIconGroupProps> = ({ display }) => {
 	];
 
 	return (
-		<div>
+		<div className="flex gap-2 ">
 			{SvgIcons.map((svg, index) => (
 				<NavbarIcon
 					key={index}

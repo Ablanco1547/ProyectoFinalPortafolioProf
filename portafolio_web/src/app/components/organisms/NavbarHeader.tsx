@@ -5,7 +5,7 @@ import NavbarIconGroup from "../molecules/NavbarIconGroup";
 
 const NavbarHeader = () => {
 	return (
-		<header>
+		<header className="flex justify-between px-10  items-center noise-bg">
 			<NavbarLogo></NavbarLogo>
 			<NavbarUL></NavbarUL>
 			<NavbarIconGroup

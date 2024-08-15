@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import "./globals.css";
 
 import NavbarHeader from "./components/organisms/NavbarHeader";
 
-const inter = Inter({ subsets: ["latin"] });
+import { abel } from "./fonts";
 
 export const metadata: Metadata = {
 	title: "Adrian Blanco | Portafolio",
@@ -16,8 +16,8 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="es">
-			<body className={`abel.className antialiased`}>
+		<html lang="es" className={`${abel.className} antialiased`}>
+			<body className="overflow-x-hidden text-portOffWhite">
 				<NavbarHeader></NavbarHeader>
 				{children}
 			</body>

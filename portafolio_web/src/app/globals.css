@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+
+.noise-bg {
+  position: relative;
+  z-index: 1;
+}
+
+.noise-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/Noise bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3; /* 50% transparency */
+  z-index: -1;
+}
+
+.noise-bg > * {
+  position: relative; /* Keep the content above the background */
+  z-index: 2;
+}
+.dimmed-text-08 {
+  color: rgba(var(--foreground-rgb), 0.8);
+}
+.dimmed-text-07 {
+  color: rgba(var(--foreground-rgb), 0.7);
+}
+.dimmed-text-06 {
+  color: rgba(var(--foreground-rgb), 0.6);
+}
+.dimmed-text-05 {
+  color: rgba(var(--foreground-rgb), 0.5);
+}
+.dimmed-text-04 {
+  color: rgba(var(--foreground-rgb), 0.4);
+}

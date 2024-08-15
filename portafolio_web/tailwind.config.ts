@@ -17,8 +17,8 @@ const config: Config = {
         'portRed': '#E34F3A',
         'portDrkRed': '#8d0808',
         'portGreen': '#CEF26A',
-        'portBlack': '#333333',
-        'portDrkBlack': '#30302f',
+        'portBlack': '#111111',
+        'portDrkBlack': '#0C0C0C',
         'portOffWhite':'#f2f0ef',
 
       },
