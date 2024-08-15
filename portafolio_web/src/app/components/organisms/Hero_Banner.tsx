@@ -10,9 +10,9 @@ const Hero_Banner = () => {
 				<h1 className={`${redHat.className} text-8xl font-semibold `}>
 					Adrián Blanco<RedDot></RedDot>
 				</h1>
-				<h3 className="text-5xl dimmed-text-08">
+				<h2 className="text-5xl dimmed-text-08">
 					Desarrollador front end<RedDot></RedDot>
-				</h3>
+				</h2>
 			</div>
 			<div className="absolute h-80 w-9/12  translate-x-2/4 ">
 				<Image

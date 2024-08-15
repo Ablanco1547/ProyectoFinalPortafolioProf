@@ -7,8 +7,8 @@ interface NavbarLinkProps {
 
 const NavbarLink: React.FC<NavbarLinkProps> = ({ link }) => {
 	return (
-		<li>
-			<a href={link.href} className="text-xl">
+		<li className="transition-transform duration-300 hover:scale-105  ">
+			<a href={link.href} className="text-xl ">
 				{link.innerText}
 			</a>
 		</li>

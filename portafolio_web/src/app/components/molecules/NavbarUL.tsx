@@ -14,7 +14,7 @@ const NavbarUL = () => {
 
 	return (
 		<nav className={redHat.className}>
-			<ul className="flex gap-8">
+			<ul className="flex gap-8 ">
 				{NavItems.map((item, index) => (
 					<NavbarLink
 						key={index}
