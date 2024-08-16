@@ -166,3 +166,21 @@ color: #f2f0ef7a;
 
 
 }
+
+
+.hidden-overlay {
+  display: none !important;
+}
+
+
+
+
+
+
+.MainModalBTN:hover{
+  background-color: #E34F3A !important;
+}
+
+.Project-Card:hover .MainModalBTN {
+  background-color: #E34F3A !important; /* Change to your desired hover color */
+}

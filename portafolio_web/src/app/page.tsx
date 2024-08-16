@@ -1,3 +1,4 @@
+import Project_Modal from "./components/molecules/Project_Modal";
 import Hero_Banner from "./components/organisms/Hero_Banner";
 import Prof_Profile from "./components/organisms/Prof_Profile";
 import Contact from "./components/pages/Contact";
