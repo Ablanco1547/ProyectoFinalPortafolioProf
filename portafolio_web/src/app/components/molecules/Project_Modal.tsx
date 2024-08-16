@@ -2,8 +2,13 @@
 import React, { useState, useEffect } from "react";
 import { Button, Modal } from "antd";
 import { abel } from "@/app/fonts";
+import { IProjectCardProps } from "@/app/models/IProjectCardProps";
 
-const Project_Modal: React.FC = () => {
+interface ProjectModalProps {
+	modalProps: IProjectCardProps;
+}
+
+const Project_Modal: React.FC<ProjectModalProps> = ({ modalProps }) => {
 	const [modal1Open, setModal1Open] = useState(false);
 
 	useEffect(() => {
@@ -28,8 +33,8 @@ const Project_Modal: React.FC = () => {
 			</Button>
 
 			<Modal
-				className="modalProyect flex flex-col items-center gap-5"
-				title="Titulo del Proyecto"
+				className={`${abel.className} modalProyect flex flex-col items-center gap-5`}
+				title={modalProps.title}
 				centered
 				open={modal1Open}
 				onOk={() => setModal1Open(false)}
@@ -40,21 +45,16 @@ const Project_Modal: React.FC = () => {
 					className=""
 					width="100%"
 					height="315"
-					src="https://www.youtube-nocookie.com/embed/7f0JdK5uphs?si=oHy5fTeIFPfO6rqf&amp;controls=0"
+					src={modalProps.src}
 					title="YouTube video player"
 					frameBorder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					referrerPolicy="strict-origin-when-cross-origin"
 				></iframe>
-				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
-					obcaecati porro necessitatibus nulla magnam quidem eos quo fuga, quia
-					omnis blanditiis asperiores consectetur expedita vitae et rem modi
-					ipsam ducimus.
-				</p>
+				<p>{modalProps.extendedDescription}</p>
 
 				<br></br>
-				<p className="text-portOffWhite">html, css, javascript, typescript</p>
+				<p className="text-portOffWhite">{modalProps.techs}</p>
 			</Modal>
 		</>
 	);

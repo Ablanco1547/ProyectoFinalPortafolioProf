@@ -4,5 +4,8 @@ export interface IProjectCardProps {
     image: string;
     alt: string;
     techs: string;
+    extendedDescription: string;
+    src: string;
+
   
 }

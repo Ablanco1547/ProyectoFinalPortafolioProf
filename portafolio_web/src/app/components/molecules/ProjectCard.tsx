@@ -37,7 +37,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ cardProps }) => {
 					{cardProps.techs}
 				</figcaption>
 			</figure>
-			<Project_Modal></Project_Modal>
+			<Project_Modal modalProps={cardProps}></Project_Modal>
 		</article>
 	);
 };
