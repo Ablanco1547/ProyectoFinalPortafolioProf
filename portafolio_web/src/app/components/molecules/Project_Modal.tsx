@@ -37,7 +37,8 @@ const Project_Modal: React.FC = () => {
 				wrapClassName={!modal1Open ? "hidden-overlay" : ""}
 			>
 				<iframe
-					width="480"
+					className=""
+					width="100%"
 					height="315"
 					src="https://www.youtube-nocookie.com/embed/7f0JdK5uphs?si=oHy5fTeIFPfO6rqf&amp;controls=0"
 					title="YouTube video player"
