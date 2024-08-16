@@ -17,7 +17,11 @@ const Prof_Profile = () => {
 				</p>
 			</div>
 			<MainHoverBtn
-				btnProps={{ href: "", innerText: "Sobre mi", color: "red" }}
+				btnProps={{
+					href: "#about_section",
+					innerText: "Sobre mi",
+					color: "red",
+				}}
 			></MainHoverBtn>
 		</section>
 	);

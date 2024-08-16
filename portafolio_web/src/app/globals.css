@@ -30,6 +30,7 @@ body {
     
 }
 
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -57,6 +58,17 @@ body {
     color: #E66350;
     text-shadow: -3px -3px 0px #8d0808;
   }
+
+
+
+  .fixed-navbar {
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000 !important; /* Ensure it stays on top of other content */
+  }
+ 
 }
 
 
@@ -76,7 +88,7 @@ body {
   background-image: url("/Noise bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.3; /* 50% transparency */
+  opacity: 0.2; /* 50% transparency */
   z-index: -1;
 }
 
@@ -98,4 +110,56 @@ body {
 }
 .dimmed-text-04 {
   color: rgba(var(--foreground-rgb), 0.4);
+}
+
+
+/*Contact section*/
+
+.messageModal{
+  font-size: 1rem !important;
+
+
+}
+
+.messageModal .ant-btn{
+  background-color: #E66350 !important;
+  color: #111111 !important;
+  font-weight: 600 !important;
+
+}
+
+.messageModal .ant-modal-content{
+  background-color: #111111 !important;
+  color: #111111 !important;
+
+
+}
+
+.messageModal .anticon-check-circle{
+  color: #cef26a !important;
+}
+.ant-modal-wrap{
+  display: flex !important;
+  align-items: center !important;
+  background-color: #00000099;
+}
+
+.messageModal .ant-modal-confirm-content{
+  color: #ffffff !important;
+}
+
+.messageBox{
+  font-size: 1rem !important;
+}
+
+.messageBox .ant-message-notice-content{
+  background-color: #111111 !important;
+  color: #ffffff !important;
+
+}
+
+.messageBox .anticon-check-circle{
+  color: #cef26a !important;
+
+
 }

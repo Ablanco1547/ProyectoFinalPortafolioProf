@@ -5,7 +5,10 @@ import Project_Card_Container from "../organisms/Project_Card_Container";
 
 const Projects = () => {
 	return (
-		<section id="projects_section" className=" noise-bg p-14">
+		<section
+			id="projects_section"
+			className=" noise-bg p-20 flex flex-col gap-14"
+		>
 			<SectionTitle
 				titleProps={{
 					TitleInnerText: "PROYECTOS",

@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="es" className={`${abel.className} antialiased`}>
-			<body className="overflow-x-hidden text-portOffWhite">
+			<body className="overflow-x-hidden text-portOffWhite  ">
 				<NavbarHeader></NavbarHeader>
 				{children}
 			</body>

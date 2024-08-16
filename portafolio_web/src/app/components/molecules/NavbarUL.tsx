@@ -9,7 +9,7 @@ const NavbarUL = () => {
 		{ href: "#projects_section", innerText: "Proyectos" },
 
 		{ href: "#contact-section", innerText: "Contacto" },
-		{ href: "#about-section", innerText: "Sobre mi" },
+		{ href: "#about_section", innerText: "Sobre mi" },
 	];
 
 	return (

@@ -21,7 +21,7 @@ const IndexPage = () => {
 					btnProps={{
 						href: "#projects_section",
 						innerText: "Proyectos",
-						color: "red",
+						color: "green",
 					}}
 				></MainHoverBtn>
 			</div>

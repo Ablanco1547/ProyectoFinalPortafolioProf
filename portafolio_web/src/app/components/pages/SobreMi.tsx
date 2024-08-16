@@ -3,7 +3,7 @@ import SectionTitle from "../atoms/SectionTitle";
 
 const SobreMi = () => {
 	return (
-		<section className=" noise-bg p-14">
+		<section id="about_section" className=" noise-bg p-20 flex flex-col gap-14">
 			<SectionTitle
 				titleProps={{
 					TitleInnerText: "SOBRE MI",
