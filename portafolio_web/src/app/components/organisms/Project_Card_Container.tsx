@@ -7,7 +7,7 @@ const Project_Card_Container = () => {
 			title: "Tools R Oss",
 			description: "Extensión de google chrome",
 			extendedDescription:
-				"Desarrollé una extensión para Google Chrome que automatiza la obtención de datos y listas deportivas detalladas junto con sus respectivas estadísticas. Esta herramienta reduce significativamente el margen de error humano y optimiza un proceso manual de 40 minutos, simplificándolo a solo dos clicks.",
+				"Desarrollé una extensión para Google Chrome que automatiza la obtención de datos y listas deportivas detalladas de diferentes sitios web junto con sus respectivas estadísticas. Esta herramienta reduce significativamente el margen de error humano y optimiza un proceso manual de 40 minutos, simplificándolo a solo dos clicks.",
 			image: "/ToolsROss.webp",
 			alt: "Project Image",
 			techs: "Firebase, Javascript, Html, Css, Rest API",
@@ -17,7 +17,7 @@ const Project_Card_Container = () => {
 			title: "Nutricense",
 			description: "Sitio web de nutrición",
 			extendedDescription:
-				"Nutricense es un proyecto de desarrollo web que ofrece a los usuarios información sobre nutrición y dietas personalizadas. La plataforma cuenta con un sistema de registro y login, así como un panel de administración para los nutricionistas, donde pueden gestionar sus clientes y sus dietas.",
+				"Nutricense es un proyecto de desarrollo web que ofrece a los usuarios información sobre nutrición y dietas personalizadas. La plataforma cuenta con un sistema de calculo de composicion corporal y datos vitales para los pacientes, ademas de una tabla de busqueda de alimentos por grupo alimenticio y seccion educacional",
 			image: "/Nutricense.webp",
 			alt: "Project Image",
 			techs: "Html, Css, Javascript, C#,  Sql, .net ",
@@ -27,7 +27,7 @@ const Project_Card_Container = () => {
 			title: "T R Oss Reporting",
 			description: "Extensión de google chrome",
 			extendedDescription:
-				"Desarrollé una extensión para Google Chrome que ofrece a los usuarios un análisis exhaustivo de las jugadas de un jugador, presentando porcentajes e información detallada de su rendimiento. La herramienta también incluye una función de comparación de direcciones IP, permitiendo identificar si un mismo usuario está utilizando múltiples cuentas.",
+				"Desarrollé una extensión para Google Chrome que ofrece a los usuarios un análisis exhaustivo de la accion de un usuario, presentando porcentajes e información detallada de su rendimiento. La herramienta también incluye una función de comparación de direcciones IP, permitiendo identificar si un mismo usuario está utilizando múltiples cuentas.",
 			image: "/ToolsReporting.webp",
 			alt: "Project Image",
 			techs: "Firebase, Javascript, Html, Css, Rest API",
