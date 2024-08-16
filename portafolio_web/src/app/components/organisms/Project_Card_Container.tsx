@@ -13,14 +13,14 @@ const Project_Card_Container = () => {
 		{
 			title: "Project Title",
 			description: "Project Description",
-			image: "/projects/ToolsROss.webp",
+			image: "/ToolsROss.webp",
 			alt: "Project Image",
 			techs: "Tech 1, Tech 2, Tech 3",
 		},
 		{
 			title: "Project Title",
 			description: "Project Description",
-			image: "/projects/ToolsROss.webp",
+			image: "/ToolsROss.webp",
 			alt: "Project Image",
 			techs: "Tech 1, Tech 2, Tech 3",
 		},
@@ -34,7 +34,7 @@ const Project_Card_Container = () => {
 					cardProps={{
 						title: project.title || "Project Title",
 						description: project.description || "Project Description",
-						image: project.image || "/projects/ToolsROss.webp",
+						image: project.image || "/ToolsROss.webp",
 						alt: project.alt || "Project Image",
 						techs: project.techs || "Tech 1, Tech 2, Tech 3",
 					}}
