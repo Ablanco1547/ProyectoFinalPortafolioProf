@@ -13,7 +13,7 @@ const MainHoverBtn: React.FC<MainHoverBtnProps> = ({ btnProps }) => {
 	return (
 		<button
 			type={btnProps.href as "submit" | "reset" | "button" | undefined}
-			className={`text-3xl ${borderColor} w-max py-3 px-5 border-2 rounded-xl m-auto ${hoverBgColor} hover:scale-105 text-portDrkBlack transition-all duration-150`}
+			className={`text-3xl ${borderColor} my-8 w-max py-1 px-5 border-2 rounded-xl m-auto ${hoverBgColor} hover:scale-105 text-portDrkBlack transition-all duration-150`}
 		>
 			{btnProps.innerText}
 		</button>
