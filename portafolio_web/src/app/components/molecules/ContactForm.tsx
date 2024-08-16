@@ -92,7 +92,7 @@ const ContactForm: React.FC = () => {
 		<form
 			onSubmit={handleSubmit}
 			id="Contact-Form"
-			className=" text-portOffWhite p-4 mb-36 w-11/12 md:w-10/12 lg:w-8/12 md:gap-2 md:gap-4 h-auto md:p-10 flex flex-col mx-auto text-left"
+			className=" text-portOffWhite p-4 w-11/12 md:w-10/12 lg:w-8/12 md:gap-2 md:gap-4 h-auto md:p-10 flex flex-col mx-auto text-left"
 		>
 			<div className="flex flex-col gap-3">
 				<label htmlFor="name" className="font-light text-xl ">

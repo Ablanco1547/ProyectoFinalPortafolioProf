@@ -7,7 +7,7 @@ const Projects = () => {
 	return (
 		<section
 			id="projects_section"
-			className=" noise-bg p-20 flex flex-col gap-14"
+			className=" noise-bg py-20 flex flex-col gap-14"
 		>
 			<SectionTitle
 				titleProps={{

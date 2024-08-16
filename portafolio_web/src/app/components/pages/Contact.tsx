@@ -6,7 +6,7 @@ const Contact = () => {
 	return (
 		<section
 			id="contact-section"
-			className=" noise-bg py-20 flex flex-col gap-14"
+			className=" noise-bg py-20 flex flex-col gap-2 lg:gap-10 text-center"
 		>
 			<SectionTitle
 				titleProps={{
@@ -17,6 +17,7 @@ const Contact = () => {
 				}}
 			></SectionTitle>
 			<ContactForm></ContactForm>
+			<p className=" text-3xl lg:text-7xl">ablancoc@protonmail.com</p>
 		</section>
 	);
 };

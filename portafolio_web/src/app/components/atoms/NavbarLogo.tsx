@@ -8,7 +8,7 @@ const NavbarLogo = () => {
 				src="/ABLogo.webp"
 				width={99}
 				height={72}
-				alt="Picture of the author"
+				alt="Letras AB representando el logo de Adrián Blanco"
 				priority={true}
 			/>
 		</a>

@@ -14,7 +14,7 @@ const MainHoverBtn: React.FC<MainHoverBtnProps> = ({ btnProps }) => {
 	return (
 		<a
 			href={btnProps.href}
-			className={`text-3xl ${borderColor} w-max py-3 px-5 border-2 rounded-xl m-auto ${hoverBgColor} hover:text-portDrkBlack transition-all duration-150`}
+			className={`md:text-3xl ${borderColor} w-max py-3 px-5 border-2 rounded-xl m-auto ${hoverBgColor} hover:text-portDrkBlack transition-all duration-150`}
 		>
 			{btnProps.innerText}
 		</a>

@@ -10,7 +10,7 @@ const SectionTitle: React.FC<SectionTitleProps> = ({ titleProps }) => {
 	return (
 		<div className="w-full text-center">
 			<h3
-				className={`${redHat.className} font-bold text-8xl font-bold text-red titleShadowSm md:titleShadowMd lg:titleShadowLg lg:text-custom-6vw 2xl:titleShadowXL`}
+				className={`${redHat.className} font-bold text-5xl md:text-7xl lg:text-8xl font-bold text-red titleShadowSm md:titleShadowMd `}
 			>
 				{titleProps.TitleInnerText}
 			</h3>
