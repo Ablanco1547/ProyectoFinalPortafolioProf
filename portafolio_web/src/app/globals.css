@@ -15,6 +15,9 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+html{
+  scroll-behavior: smooth !important;
+}
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -24,11 +27,35 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  
+  .titleShadowXL {
+    color: #E66350;
+    text-shadow: -0.7vw -0.7vw 0px #8d0808;
+  }
+
+  .titleShadowLg {
+    color: #E66350;
+    text-shadow: -11px -11px 0px #8d0808;
+  }
+
+  .titleShadowMd {
+    color: #E66350;
+    text-shadow: -5px -5px 0px #8d0808;
+  }
+
+ 
+
+  .titleShadowSm {
+    color: #E66350;
+    text-shadow: -3px -3px 0px #8d0808;
   }
 }
 

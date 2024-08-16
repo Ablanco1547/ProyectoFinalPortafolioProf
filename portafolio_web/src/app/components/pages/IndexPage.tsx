@@ -5,6 +5,7 @@ import MainHoverBtn from "../atoms/MainHoverBtn";
 const IndexPage = () => {
 	return (
 		<section
+			id="index_section"
 			className="bg-portDrkBlack flex flex-col justify-center noise-bg"
 			style={{ height: "calc(100vh - 4.5rem)" }}
 		>
@@ -17,7 +18,11 @@ const IndexPage = () => {
 				</div>
 
 				<MainHoverBtn
-					btnProps={{ href: "aqui", innerText: "Proyectos", color: "red" }}
+					btnProps={{
+						href: "#projects_section",
+						innerText: "Proyectos",
+						color: "red",
+					}}
 				></MainHoverBtn>
 			</div>
 		</section>
