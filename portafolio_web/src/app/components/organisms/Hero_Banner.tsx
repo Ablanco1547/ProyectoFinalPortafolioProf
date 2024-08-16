@@ -16,7 +16,7 @@ const Hero_Banner = () => {
 					Desarrollador front end<RedDot></RedDot>
 				</h2>
 			</div>
-			<div className="  md:block absolute h-full md:h-80 w-96 sm:w-full md:w-9/12  md:translate-x-1/3 lg:translate-x-2/4 ">
+			<div className="  md:block absolute h-full md:h-80 w-full md:w-9/12  md:translate-x-1/3 lg:translate-x-2/4 ">
 				<Image
 					className="object-cover md:translate-x-36 lg:translate-x-32 opacity-5 md:opacity-90 "
 					src="/Adrian.webp"
