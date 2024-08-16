@@ -6,14 +6,14 @@ const Project_Card_Container = () => {
 		{
 			title: "Project Title",
 			description: "Project Description",
-			image: "/projects/ToolsROss.webp",
+			image: "/ToolsROss.webp",
 			alt: "Project Image",
 			techs: "Tech 1, Tech 2, Tech 3",
 		},
 		{
 			title: "Project Title",
 			description: "Project Description",
-			image: "/ToolsROss.webp",
+			image: "/Nutricense.webp",
 			alt: "Project Image",
 			techs: "Tech 1, Tech 2, Tech 3",
 		},
