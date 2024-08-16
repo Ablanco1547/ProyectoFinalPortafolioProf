@@ -14,7 +14,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ cardProps }) => {
 
 	return (
 		<article className="p-3 md:p-5 border-4 border-portGray rounded-xl w-64 md:w-80 flex flex-col gap-4 hover:bg-portGray transition-all duration-150 Project-Card ">
-			<header className=" w-48">
+			<header className=" w-64">
 				<h2 className="text-2xl md:text-4xl ">{cardProps.title}</h2>
 				<p className="text-sm md:text-base">{cardProps.description}</p>
 			</header>
@@ -33,7 +33,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ cardProps }) => {
 					height={170}
 					width={200}
 				/>
-				<figcaption className="text-base md:text-lg">
+				<figcaption className="text-base truncate md:text-lg">
 					{cardProps.techs}
 				</figcaption>
 			</figure>

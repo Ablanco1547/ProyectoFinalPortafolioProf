@@ -4,25 +4,33 @@ import ProjectCard from "../molecules/ProjectCard";
 const Project_Card_Container = () => {
 	const Projects = [
 		{
-			title: "Project Title",
-			description: "Project Description",
+			title: "Tools R Oss",
+			description: "Extensión de google chrome",
 			image: "/ToolsROss.webp",
 			alt: "Project Image",
-			techs: "Tech 1, Tech 2, Tech 3",
+			techs: "Firebase, Javascript, Html, Css, Rest API",
 		},
 		{
-			title: "Project Title",
-			description: "Project Description",
+			title: "Nutricense",
+			description: "Sitio web de nutrición",
 			image: "/Nutricense.webp",
 			alt: "Project Image",
-			techs: "Tech 1, Tech 2, Tech 3",
+			techs: "Html, Css, Javascript, C#,  Sql, .net ",
 		},
 		{
-			title: "Project Title",
-			description: "Project Description",
-			image: "/ToolsROss.webp",
+			title: "T R Oss Reporting",
+			description: "Extensión de google chrome",
+			image: "/ToolsReporting.webp",
 			alt: "Project Image",
-			techs: "Tech 1, Tech 2, Tech 3",
+			techs: "Firebase, Javascript, Html, Css, Rest API",
+		},
+
+		{
+			title: "CenfoDungeons",
+			description: "Video Juego",
+			image: "/CenfoDungeons.webp",
+			alt: "Project Image",
+			techs: "C#, Unity",
 		},
 	];
 
