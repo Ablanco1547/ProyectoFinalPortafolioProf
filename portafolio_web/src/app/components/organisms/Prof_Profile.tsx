@@ -3,7 +3,7 @@ import MainHoverBtn from "../atoms/MainHoverBtn";
 
 const Prof_Profile = () => {
 	return (
-		<section className="w-full  text-center flex flex-col gap-16 justify-center md:p-40 noise-bg">
+		<section className="w-full  text-center flex flex-col gap-16 justify-center md:px-40 noise-bg">
 			<div className="w-full lg:w-10/12  m-auto flex flex-col gap-16 justify-center ">
 				<p className="text-xl md:text-2xl w-10/12 md:w-full xl:w-8/12  m-auto ">
 					Desarrollador full stack con experiencia en React, Next.js, HTML, CSS,
@@ -17,13 +17,6 @@ const Prof_Profile = () => {
 					Transformando visiones en realidades digitales
 				</p>
 			</div>
-			<MainHoverBtn
-				btnProps={{
-					href: "#about_section",
-					innerText: "Sobre mi",
-					color: "red",
-				}}
-			></MainHoverBtn>
 		</section>
 	);
 };
