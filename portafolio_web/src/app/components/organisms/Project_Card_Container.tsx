@@ -27,7 +27,7 @@ const Project_Card_Container = () => {
 	];
 
 	return (
-		<div className="w-3/4 m-auto flex justify-evenly flex-wrap gap-8">
+		<div className="lg:w-3/4 m-auto flex justify-evenly flex-wrap gap-8">
 			{Projects.map((project, index) => (
 				<ProjectCard
 					key={index}
