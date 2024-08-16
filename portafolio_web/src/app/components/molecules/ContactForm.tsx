@@ -92,7 +92,7 @@ const ContactForm: React.FC = () => {
 		<form
 			onSubmit={handleSubmit}
 			id="Contact-Form"
-			className=" text-portOffWhite p-4 mb-36 w-11/12 md:w-9/12 lg:w-6/12 md:gap-2 md:gap-4 h-auto md:p-10 flex flex-col mx-auto text-left"
+			className=" text-portOffWhite p-4 mb-36 w-11/12 md:w-10/12 lg:w-8/12 md:gap-2 md:gap-4 h-auto md:p-10 flex flex-col mx-auto text-left"
 		>
 			<div className="flex flex-col gap-3">
 				<label htmlFor="name" className="font-light text-xl ">
@@ -104,7 +104,7 @@ const ContactForm: React.FC = () => {
 					name="name"
 					value={formData.name}
 					onChange={handleChange}
-					className=" p-2 border-b-2 border-red  bg-portDrkBlack"
+					className="text-2xl p-2 border-b-2 border-portTransparentWhite  bg-portDrkBlack"
 					required
 				/>
 			</div>
@@ -119,7 +119,7 @@ const ContactForm: React.FC = () => {
 					name="email"
 					value={formData.email}
 					onChange={handleChange}
-					className=" p-2 border-b-2 border-portOffWhite  bg-portDrkBlack"
+					className="text-2xl p-2 border-b-2 border-portTransparentWhite  bg-portDrkBlack"
 					required
 				/>
 			</div>
@@ -134,7 +134,7 @@ const ContactForm: React.FC = () => {
 					rows={4}
 					value={formData.message}
 					onChange={handleChange}
-					className=" p-2 border-b-2 border-red overflow-hidden  bg-portDrkBlack"
+					className="text-2xl p-2 border-b-2 border-portTransparentWhite overflow-hidden  bg-portDrkBlack"
 					required
 				></textarea>
 			</div>

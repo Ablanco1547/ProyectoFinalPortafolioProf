@@ -71,7 +71,10 @@ body {
  
 }
 
-
+colgroup {
+  width: 100%;
+color: #f2f0ef7a;
+}
 
 .noise-bg {
   position: relative;

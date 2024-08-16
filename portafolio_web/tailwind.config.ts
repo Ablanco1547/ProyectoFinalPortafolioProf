@@ -20,6 +20,7 @@ const config: Config = {
         'portBlack': '#111111',
         'portDrkBlack': '#0C0C0C',
         'portOffWhite':'#f2f0ef',
+        'portTransparentWhite': '#f2f0ef7a',
         'portGray': '#1E1E1E',
 
       },

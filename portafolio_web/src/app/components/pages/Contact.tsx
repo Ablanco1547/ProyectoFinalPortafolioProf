@@ -6,7 +6,7 @@ const Contact = () => {
 	return (
 		<section
 			id="contact-section"
-			className=" noise-bg  p-20 flex flex-col gap-14"
+			className=" noise-bg py-20 flex flex-col gap-14"
 		>
 			<SectionTitle
 				titleProps={{
