@@ -1,11 +1,21 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Button, Modal } from "antd";
-import FilledBtn from "../atoms/FilledBtn";
 import { abel } from "@/app/fonts";
 
 const Project_Modal: React.FC = () => {
 	const [modal1Open, setModal1Open] = useState(false);
+
+	useEffect(() => {
+		const overflowElement = document.getElementById("overflow");
+		if (overflowElement) {
+			if (modal1Open) {
+				overflowElement.style.overflowY = "hidden";
+			} else {
+				overflowElement.style.overflowY = "scroll";
+			}
+		}
+	}, [modal1Open]);
 
 	return (
 		<>
