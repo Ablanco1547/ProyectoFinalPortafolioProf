@@ -14,7 +14,7 @@ const IndexPage = () => {
 			<div className="flex flex-col gap-20 text-center">
 				<div className="flex flex-col  md:gap-12">
 					<Hero_Banner></Hero_Banner>
-					<p className="text-1xl text-base md:text-2xl  lg:text-4xl dimmed-text-07">
+					<p className="text-lg md:text-2xl  lg:text-4xl dimmed-text-07">
 						HTML - CSS - JAVASCRIPT - TYPESCRIPT - REACT JS - NEXT JS - TAILWIND
 					</p>
 				</div>

@@ -12,7 +12,7 @@ export default function Home() {
 
 			<Projects></Projects>
 			<Contact></Contact>
-			<Prof_Profile></Prof_Profile>
+
 			<SobreMi></SobreMi>
 		</>
 	);

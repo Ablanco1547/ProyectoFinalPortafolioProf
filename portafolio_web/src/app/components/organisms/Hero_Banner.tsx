@@ -8,7 +8,7 @@ const Hero_Banner = () => {
 		<div className="h-96 md:h-80 bg-portBlack flex  justify-between  ">
 			<div className="text-center w-full md:w-8/12 my-auto flex flex-col gap-3 ">
 				<h1
-					className={`${redHat.className} text-5xl md:text-6xl lg:text-8xl font-semibold `}
+					className={`${redHat.className} text-6xl md:text-6xl lg:text-8xl font-semibold `}
 				>
 					Adrián Blanco<RedDot></RedDot>
 				</h1>
