@@ -184,3 +184,36 @@ color: #f2f0ef7a;
 .Project-Card:hover .MainModalBTN {
   background-color: #E34F3A !important; /* Change to your desired hover color */
 }
+
+.ant-modal-footer button{
+  background-color: #E34F3A !important; /* Change to your desired hover color */
+  border-color: #E34F3A !important;
+}
+
+.ant-modal-footer button:hover{
+  
+  color: #f2f0ef !important;
+    border-color: #E34F3A !important;
+
+}
+
+.ant-modal-footer button:active{
+  
+  color: #E34F3A;
+    border-color: #E34F3A;
+
+}
+
+
+
+
+.ant-modal-content{
+
+  background-color: #111111 !important;
+  color: #ffffff !important;
+}
+
+.ant-modal-title{
+  background-color: #111111 !important;
+  color: #ffffff !important;
+}

@@ -18,16 +18,15 @@ const Project_Modal: React.FC = () => {
 			</Button>
 
 			<Modal
-				title="20px to Top"
+				className="modalProyect"
+				title="Nombre del proyecto"
 				centered
 				open={modal1Open}
 				onOk={() => setModal1Open(false)}
 				onCancel={() => setModal1Open(false)}
 				wrapClassName={!modal1Open ? "hidden-overlay" : ""}
 			>
-				<p>some contents...</p>
-				<p>some contents...</p>
-				<p>some contents...</p>
+				<p>Aqui va toda la info del proyecto</p>
 			</Modal>
 		</>
 	);
