@@ -66,6 +66,7 @@ const ContactForm: React.FC = () => {
 				Modal.success({
 					content: insideContent,
 					className: "messageModal",
+					style: { top: "5%" },
 				});
 				break;
 			case "loading":
