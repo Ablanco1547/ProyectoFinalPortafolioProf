@@ -12,9 +12,9 @@ const IndexPage = () => {
 			style={{ height: "calc(100vh - 4.5rem)" }}
 		>
 			<div className="flex flex-col gap-20 text-center">
-				<div className="flex flex-col  md:gap-12">
+				<div className="flex flex-col  md:gap-12 ">
 					<Hero_Banner></Hero_Banner>
-					<p className="text-lg md:text-2xl  lg:text-4xl dimmed-text-07">
+					<p className="text-lg md:text-2xl w-10/12 m-auto lg:text-4xl dimmed-text-07">
 						HTML - CSS - JAVASCRIPT - TYPESCRIPT - REACT JS - NEXT JS - TAILWIND
 					</p>
 				</div>
