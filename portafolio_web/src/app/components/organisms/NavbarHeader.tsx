@@ -5,7 +5,7 @@ import NavbarIconGroup from "../molecules/NavbarIconGroup";
 
 const NavbarHeader = () => {
 	return (
-		<header className="fixed-navbar hidden md:flex justify-between px-10 items-center bg-portDrkBlack  ">
+		<header className="fixed-navbar flex justify-around md:justify-between md:px-10 items-center bg-portDrkBlack  ">
 			<NavbarLogo></NavbarLogo>
 			<NavbarUL></NavbarUL>
 			<NavbarIconGroup

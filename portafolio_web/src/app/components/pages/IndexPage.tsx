@@ -1,6 +1,8 @@
 import React from "react";
 import Hero_Banner from "../organisms/Hero_Banner";
 import MainHoverBtn from "../atoms/MainHoverBtn";
+import NavbarUL from "../molecules/NavbarUL";
+import NavbarIconGroup from "../molecules/NavbarIconGroup";
 
 const IndexPage = () => {
 	return (
@@ -25,6 +27,10 @@ const IndexPage = () => {
 					}}
 				></MainHoverBtn>
 			</div>
+
+			<NavbarIconGroup
+				display={{ smDisplay: "flex m-auto", mdDisplay: "sm:hidden" }}
+			></NavbarIconGroup>
 		</section>
 	);
 };
