@@ -6,10 +6,10 @@ import { abel, redHat } from "@/app/fonts";
 const NavbarUL = () => {
 	const NavItems = [
 		{ href: "#index_section", innerText: "Inicio" },
+		{ href: "#about_section", innerText: "Sobre mi" },
 		{ href: "#projects_section", innerText: "Proyectos" },
 
 		{ href: "#contact-section", innerText: "Contacto" },
-		{ href: "#about_section", innerText: "Sobre mi" },
 	];
 
 	return (

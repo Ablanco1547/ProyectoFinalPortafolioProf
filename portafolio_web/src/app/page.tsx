@@ -10,11 +10,9 @@ export default function Home() {
 	return (
 		<>
 			<IndexPage></IndexPage>
-
+			<SobreMi></SobreMi>
 			<Projects></Projects>
 			<Contact></Contact>
-
-			<SobreMi></SobreMi>
 		</>
 	);
 }
