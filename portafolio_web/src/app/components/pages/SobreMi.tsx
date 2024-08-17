@@ -6,7 +6,7 @@ const SobreMi = () => {
 	return (
 		<section
 			id="about_section"
-			className=" noise-bg md:p-20 flex flex-col gap-14"
+			className=" noise-bg md:py-20 flex flex-col gap-14"
 		>
 			<SectionTitle
 				titleProps={{

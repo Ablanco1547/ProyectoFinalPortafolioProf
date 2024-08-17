@@ -17,7 +17,7 @@ const Contact = () => {
 				}}
 			></SectionTitle>
 			<ContactForm></ContactForm>
-			<p className=" text-3xl lg:text-7xl text-portTransparentWhite">
+			<p className=" text-2xl lg:text-4xl text-portTransparentWhite">
 				ablancoc@protonmail.com
 			</p>
 		</section>

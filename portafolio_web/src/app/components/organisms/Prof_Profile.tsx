@@ -13,10 +13,6 @@ const Prof_Profile = () => {
 					con la implementación de soluciones tecnológicas innovadoras.
 				</p>
 			</div>
-
-			<p className="text-4xl md:text-5xl text-portTransparentWhite my-32">
-				Transformando visiones en realidades digitales
-			</p>
 		</section>
 	);
 };
