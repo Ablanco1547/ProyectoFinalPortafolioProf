@@ -16,6 +16,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
 	title: "Adrian Blanco | Portafolio",
 	description: "Portafolio web del desarrollador full stack Adrian Blanco",
+	verification: { google: "Q4myCaH3eG0MCXj3MxK4_d8O6Jkvub8Cy8TFolSKz24" },
 };
 
 export default function RootLayout({
